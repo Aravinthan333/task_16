@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 150px;
+  width: 120px;
+}
+
+hr {
+  margin: 15px 0;
+}
+
+.background {
+  background-color: rgb(229, 231, 230);
+
+  max-width: 55vw;
+  margin: 15px;
+  padding: 15px 15px;
+  border-radius: 6px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productDetails {
+  display: flex;
+  gap: 15px;
+  margin: 0 15px;
+}
+
+.viewit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  color: #615a5a;
+}
+
+.multiply {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.remove button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 40px;
+  text-align: center;
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+
+.sale {
+  float: right;
+  border: ipx solid black;
+  background: black;
+  color: #fff;
+  font-size: 14px;
+  margin: 6px;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.image {
+  height: 250px;
+  width: 200px;
+  font-size: 25px;
+  background: #dee1e6;
+  padding: 5px;
+  text-align: center;
+}
+
+.image > img {
+  object-fit: cover;
+  height: 100%;
+  width: auto;
+}
+
+.card > i {
+  margin: 5px 0;
+}
+
+.price {
+  margin: 10px 0;
+}
+
+.card > button {
+  padding: 8px 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5em;
+}
