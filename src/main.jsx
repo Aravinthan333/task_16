@@ -11,6 +11,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {data.products.map((product) => (
       <Cart key={product.id} {...product} />
     ))}
-    {/* <Cards /> */}
   </React.StrictMode>
 );
