@@ -35,6 +35,8 @@ const Card = ({ title, brand, images, price }) => {
 Card.propTypes = {
   title: propTypes.string,
   price: propTypes.number,
+  images: propTypes.arrayOf(propTypes.string),
+  brand: propTypes.string,
 };
 
 export default function Cards() {
