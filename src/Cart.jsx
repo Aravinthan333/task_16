@@ -1,4 +1,5 @@
 import { useState } from "react";
+import propTypes from "prop-types";
 
 const Cart = ({ title, description, brand, images, category, price }) => {
   const [noOfProduct, setNoOfProduct] = useState(0);
@@ -76,6 +77,15 @@ const Cart = ({ title, description, brand, images, category, price }) => {
       </div>
     </>
   );
+};
+
+Cart.propTypes = {
+  title: propTypes.string,
+  description: propTypes.string,
+  price: propTypes.number,
+  images: propTypes.array,
+  brand: propTypes.string,
+  category: propTypes.string,
 };
 
 export default Cart;
